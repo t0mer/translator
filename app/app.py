@@ -33,4 +33,4 @@ def translate(req: TranslationRequest):
 
 if __name__ == "__main__":
     logger.info("Starting the service")
-    uvicorn.run(app, host="0.0.0.0", port=7020)
+    uvicorn.run(app, host="0.0.0.0", port=80)
